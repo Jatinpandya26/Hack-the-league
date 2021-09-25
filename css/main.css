@@ -24,7 +24,7 @@ body {
 }
 @font-face {
   font-family: "JUSTICE LEAGUE";
-  src: url("../fonts/justice.ttf");
+  src: url("./fonts/justice.ttf");
 }
 
 html {
