@@ -10,7 +10,7 @@ Domain Path:      /languages/
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600");
-@import url("http://fonts.cdnfonts.com/css/justice-league");
+
 /* ==========================================================================
    GENERAL
    ========================================================================== */
@@ -21,6 +21,10 @@ body {
   font-weight: 400;
   background: #fff;
   overflow-x: hidden;
+}
+@font-face {
+  font-family: "JUSTICE LEAGUE";
+  src: url("../fonts/justice.ttf");
 }
 
 html {
@@ -116,11 +120,11 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
   line-height: 30px;
 }
-.section-header .workshop-subhead p, 
-.section-header .prizes-subhead p, 
+.section-header .workshop-subhead p,
+.section-header .prizes-subhead p,
 .section-header .judgespeakers-subhead p,
 .section-header .sponsors-subhead p,
-.section-header .community-subhead p{
+.section-header .community-subhead p {
   font-family: "Rubik";
   font-size: 20px;
 }
