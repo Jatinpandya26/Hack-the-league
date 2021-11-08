@@ -10,7 +10,7 @@ Domain Path:      /languages/
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600");
-
+@import url("http://fonts.cdnfonts.com/css/justice-league");
 /* ==========================================================================
    GENERAL
    ========================================================================== */
@@ -21,10 +21,6 @@ body {
   font-weight: 400;
   background: #fff;
   overflow-x: hidden;
-}
-@font-face {
-  font-family: "JUSTICE LEAGUE";
-  src: url("./fonts/JUSTICE LEAGUE.ttf");
 }
 
 html {
@@ -120,11 +116,11 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
   line-height: 30px;
 }
-.section-header .workshop-subhead p,
-.section-header .prizes-subhead p,
+.section-header .workshop-subhead p, 
+.section-header .prizes-subhead p, 
 .section-header .judgespeakers-subhead p,
 .section-header .sponsors-subhead p,
-.section-header .community-subhead p {
+.section-header .community-subhead p{
   font-family: "Rubik";
   font-size: 20px;
 }
@@ -140,7 +136,16 @@ a:not([href]):not([tabindex]):hover {
   line-height: 26px;
   margin-bottom: 0;
 }
-
+.community{
+  border: 1px solid #ddd;
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 0 20px #151948;
+  border: 0px solid #151948;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
 /* ==========================================================================
    Buttons
    ========================================================================== */
@@ -711,87 +716,163 @@ button:focus {
   color: #d1d1d1;
   font-weight: 500;
 }
+/* ===========================================================
+  sponsrs
+  ============================================================ */
+  .img-fluid{
+    border-bottom: firebrick 2px solid;
+  }
+  
+  .community-text{
+    margin-top:50px;
+    
+  }
 
+  .community-partners {
+    padding: 30px 0 40px;
+    margin-bottom: 40px;
+    background-color: #fcfcfc;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .community-partners .picture {
+    display: inline-block;
+    height: 175px;
+    width: 175px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+  }
 /* ==========================================================================
    team section
    ========================================================================== */
-#team .single-team {
-  border: 1px solid #ddd;
-  position: relative;
-  box-shadow: 0 0 20px #151948;
-  border: 5px solid #151948;
-  -moz-transition: all 0.8s ease;
-  -webkit-transition: all 0.8s ease;
-  transition: all 0.8s ease;
-}
-#team .single-team img {
-  width: 100%;
-  height: 50%;
-}
-@media screen and (max-width: 800px) {
-  #team .single-team img {
-    width: 60%;
-    height: 60%;
+
+@media screen and (min-width: 570px) {
+  #team .team-content .name {font-size: 25px;
   }
 }
-#team .single-team .team-social-icons {
-  position: absolute;
-  left: 0;
-  right: 0;
+@media screen and (min-width: 700px) {
+  #team .team-content .name {font-size: 17px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  #team .team-content .name {font-size: 30px;
+  }
+}
+
+
+.our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 40px;
+  background-color: #fcfcfc;
   text-align: center;
-  top: -20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.541);
 }
-#team .single-team .team-social-icons ul.social-list li {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  padding: 5px;
-  line-height: 30px;
-  margin: 4px;
-  background: #fff;
-}
-#team .single-team .team-social-icons ul.social-list li:hover {
-  background: #3ecf8e;
-  -moz-transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
-  border-color: #3ecf8e;
-  transition: all 0.4s ease;
-}
-#team .single-team .team-social-icons ul.social-list li:hover a {
-  display: block;
-}
-#team .single-team .team-social-icons ul.social-list li:hover a i {
-  color: #fff;
-  -moz-transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-#team .single-team .team-social-icons ul.social-list li a i {
-  color: #3ecf8e;
-  font-size: 16px;
-}
-#team .single-team:hover {
-  box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+.our-team:hover {
+  box-shadow: 0px 0px 25px 0px rgb(255, 255, 255);
   -moz-transition: all 0.8s ease;
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
-#team .single-team .team-details {
-  padding: 45px 0px 30px 0px;
+
+.our-team .picture {
+  display: inline-block;
+  height: 175px;
+  width: 175px;
+  margin-bottom: 50px;
+  z-index: 1;
   position: relative;
 }
-#team .single-team .team-details h5.team-title {
-  font-size: 16px;
-  font-weight: 600;
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #25ddf5;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #25ddf5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+.our-team .name{
+  font-size: 30px;
+}
+.our-team .title {
   display: block;
-  margin-bottom: 0;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
 }
-#team .single-team .team-details p {
-  font-size: 12px;
-  color: #5e629c;
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #023f85;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
 }
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #1369ce;
+  background-color: #f7f5ec;
+}
+
 
 /* ==========================================================================
    Footer section
