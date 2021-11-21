@@ -598,13 +598,17 @@ button:focus {
   color: #fff;
   font-size: 40px;
   font-weight: 900;
-  line-height: 60px;
-  margin-bottom: 20px;
+  line-height: 20px;
+  margin-bottom: 15px;
 }
 .hero-area .contents p {
   color: #fff;
   font-size: 18px;
   line-height: 26px;
+  margin-bottom: 20px;
+}
+.hero-area .contents img{
+  width: 150px;
 }
 .hero-area .contents .btn {
   text-transform: uppercase;
