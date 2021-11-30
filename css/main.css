@@ -637,6 +637,11 @@ button:focus {
   max-width: 100%;
 }
 
+.date{
+  padding: 10px;
+  color: #9e9e9e;
+  font-size: 30px;
+}
 /* ==========================================================================
    About 
    ========================================================================== */
@@ -796,7 +801,7 @@ button:focus {
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-color: #25ddf5;
+  background: linear-gradient(95deg, #0474cf 40%, #25ddf5 100%);00000
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -815,7 +820,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #25ddf5;
+  background: linear-gradient(95deg, #0474cf 40%, #25ddf5 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -848,7 +853,7 @@ button:focus {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: #023f85;
+  background: linear-gradient(95deg, #0474cf 40%, #25ddf5 100%);
   position: absolute;
   bottom: -100px;
   left: 0;
@@ -875,6 +880,7 @@ button:focus {
 .our-team .social li a:hover {
   color: #1369ce;
   background-color: #f7f5ec;
+  border-radius: 50%;
 }
 
 
