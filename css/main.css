@@ -855,7 +855,7 @@ button:focus {
 
 .winner-text h1, p{
   color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:"Rubik";
 }
 
 
@@ -893,11 +893,23 @@ button:focus {
 	color: black;
   border-radius: 5%;
   }
+  .flip-card-front h2{
+    font-family: "Rubik";
+  }
   
   .flip-card-back {
 	background-color: #2980b9;
 	color: white;
 	transform: rotateY(180deg);
+  }
+  .flip-card-back h1{
+    font-family: "Rubik";
+    font-size: 35px;
+  }
+  .flip-card-back p{
+    font-family: "Rubik";
+    font-size: 25px;
+    font-weight: 100;
   }
 
 .collapse_btn{
