@@ -896,6 +896,10 @@ button:focus {
 	color: black;
   border-radius: 10%;
   }
+  .fw{
+    background-color: #fff;
+    color: #000;
+  }
   .flip-card-front img {
     height: 250px;
     width: 250px;
@@ -906,7 +910,7 @@ button:focus {
   }
   .flip-card-front p{
     font-family: "Rubik";
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 25px;
   }
   
@@ -916,21 +920,12 @@ button:focus {
 	transform: rotateY(180deg);
   border-radius: 10%;
   }
-  .flip-card-back h1{
-    font-size: 30px;
-    color: #000000;
-    padding: 15px;
-    font-weight: 600;
-  }
   .flip-card-back p{
-    font-family: "Rubik";
-    font-size: 15px;
-    padding: 3px;
-    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 300;
   }
-
-  
-
 
 
 
@@ -1029,6 +1024,54 @@ button:focus {
 @media only screen and (max-width: 990px){
   .serviceBox{ margin: 0 0 40px; }
 }
+
+.btn_more{
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 18px 6px;
+  border-radius: 0;
+  border: 2px solid rgb(0, 0, 0);
+  position: relative;
+  z-index: 1;
+  transition: all .3s ease-in-out;
+}
+.btn_more:focus,
+.btn_more:hover{
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 0 15px;
+  border-color: #ffffff;
+}   
+.btn_more:before{
+  content: "";
+  background: linear-gradient(to right bottom,#ffffff 50%,transparent 51%);
+  width: 50%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.btn_more:focus:before,
+.btn_more:hover:before{
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  left: -2px;
+  top: -2px;
+}
+@media only screen and (max-width: 767px){
+  .btn{ margin-bottom: 20px; }
+}
+
+
   /* ===========================================================
   Judges and Mentors
   ============================================================ */
