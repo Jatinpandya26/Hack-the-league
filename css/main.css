@@ -727,12 +727,11 @@ button:focus {
   font-weight: 500;
 }
 /* ===========================================================
+<<<<<<< HEAD
   Sessions and workshops
   ============================================================ */
   
 
-@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
-@import 'https://fonts.googleapis.com/css?family=Roboto:700,400';
 
 .workshop-subhead p{
   color: #5e629c;
@@ -1097,6 +1096,8 @@ button:focus {
 }
 
 /* ===========================================================
+=======
+>>>>>>> b36edbed542be84dfe544e83cbf85364d57eb9ee
   sponsrs
   ============================================================ */
   .img-fluid{
