@@ -131,7 +131,7 @@ a:not([href]):not([tabindex]):hover {
   margin-bottom: 0;
 }
 .section-header .desc-text2 p {
-  font-size: 20px;
+  font-size: 15px;
   color: #5e629c;
   line-height: 26px;
   margin-bottom: 0;
@@ -828,7 +828,7 @@ button:focus {
 	 
 .card__author-content h3, p{
   color: #fff;
-  font-size: 25px;
+  font-size: 15px;
 }
 .card__author-content p{
   color: #fff;
@@ -852,18 +852,22 @@ button:focus {
    /* ===========================================================
   Prizes
   ============================================================ */
-
+#prizes{
+  background: url(../img/bg5.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .winner-text h1, p{
   color: #fff;
   font-family:"Rubik";
 }
 
-
 .flip-card {
 	background-color: transparent;
-	width: 300px;
+	width: 100%px;
 	height: 300px;
 	perspective: 1000px;
+  padding: 10px;
   }
   
   .flip-card-inner {
@@ -889,35 +893,44 @@ button:focus {
   }
   
   .flip-card-front {
-	background-color: rgb(255, 255, 255);
+	background-color:  #18273b ;
 	color: black;
-  border-radius: 5%;
+  border-radius: 10%;
   }
-  .flip-card-front h2{
+  .flip-card-front img {
+    height: 250px;
+    width: 250px;
+  }
+  .flip-card-front i {
+    font-size:150px;
+    padding: 20px;
+  }
+  .flip-card-front p{
     font-family: "Rubik";
+    color: #fff;
+    font-size: 25px;
   }
   
   .flip-card-back {
-	background-color: #2980b9;
+	background:linear-gradient(120deg,  #003e8f 10%, #25ddf5 90% );
 	color: white;
 	transform: rotateY(180deg);
+  border-radius: 10%;
   }
   .flip-card-back h1{
-    font-family: "Rubik";
-    font-size: 35px;
+    font-size: 30px;
+    color: #000000;
+    padding: 15px;
+    font-weight: 600;
   }
   .flip-card-back p{
     font-family: "Rubik";
-    font-size: 25px;
+    font-size: 15px;
+    padding: 3px;
     font-weight: 100;
   }
 
-.collapse_btn{
-  font-size: 20px;
-}
-#prizes{
-  background: linear-gradient(to bottom, #000000 70%, #ffffff 150%);
-}
+  
 
 
 
