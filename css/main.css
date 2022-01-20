@@ -1027,15 +1027,14 @@ button:focus {
 
 .btn_more{
   color: #fff;
-  background-color: rgb(0, 0, 0);
+  background:linear-gradient(120deg,  #003e8f 10%, #25ddf5 90% );
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 8px 18px 6px;
-  border-radius: 0;
-  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
   position: relative;
   z-index: 1;
   transition: all .3s ease-in-out;
