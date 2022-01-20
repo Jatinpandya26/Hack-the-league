@@ -1084,6 +1084,8 @@ button:focus {
     text-align: center;
     overflow: hidden;
     position: relative;
+    width: 300px;
+    height: 300px;
 }
 .our-judges img{
     width: 100%;
@@ -1135,7 +1137,7 @@ button:focus {
     color: #0facf3;
 }
 @media only screen and (max-width: 990px){
-    .our-team{ margin-bottom: 30px; }
+    .our-jteam{ margin-bottom: 30px; }
 }
 
 /* ===========================================================
