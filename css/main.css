@@ -909,8 +909,13 @@ button:focus {
 	transform: rotateY(180deg);
   border-radius: 10%;
   }
+  .flip-card-back h1
+  {
+    padding: 20px;
+    font-weight: 800;
+  }
   .flip-card-back p{
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
     padding: 15px;
     font-weight: 300;
