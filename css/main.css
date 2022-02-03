@@ -682,8 +682,9 @@ button:focus {
    ========================================================================== */
 
 #services {
-  background: url(../img/bg4.jpg);
+  background: url(../img/bg4.png );
   background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 #services .card {
@@ -841,7 +842,7 @@ button:focus {
   height: 20px;
   width: 20px;
   margin: 2px;
-  background-color: #363636;
+  background-color: #4b4b4b;
   border-radius: 50%;
   display: inline-block;
 }
@@ -852,7 +853,9 @@ button:focus {
   Prizes
   ============================================================ */
 #prizes{
-  background: url(../img/bg5.jpg);
+  background: #000;
+  background-image: url(../img/bg6.jpg);
+  background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -1083,12 +1086,19 @@ button:focus {
   .judgespeakers-subhead p{
   color: #5e629c;
   }
+  .judges{
+    text-align: center;
+    align-items: center;
+  }
   .our-judges{
     text-align: center;
     overflow: hidden;
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    border:5px solid #0077ff;
+    border-radius: 20%;
     
 }
 .our-judges img{
