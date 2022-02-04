@@ -1035,10 +1035,10 @@ button:focus {
 
 .btn_more{
   color: #fff;
-  background:linear-gradient(120deg,  #003e8f 10%, #25ddf5 90% );
+  border: 2px solid white;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 8px 18px 6px;
@@ -1068,6 +1068,48 @@ button:focus {
 }
 .btn_more:focus:before,
 .btn_more:hover:before{
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  left: -2px;
+  top: -2px;
+}
+
+.vbtn_more{
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 18px 6px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  transition: all .3s ease-in-out;
+}
+.vbtn_more:focus,
+.vbtn_more:hover{
+  color: #000000;
+  background-color: transparent;
+  border-radius: 0 15px;
+  border-color: #000000;
+}   
+.vbtn_more:before{
+  content: "";
+  background: linear-gradient(to right bottom,#000000 50%,transparent 51%);
+  width: 50%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.vbtn_more:focus:before,
+.vbtn_more:hover:before{
   width: 25px;
   height: 25px;
   opacity: 1;
