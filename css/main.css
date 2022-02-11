@@ -682,7 +682,7 @@ button:focus {
    ========================================================================== */
 
 #services {
-  background: url(../img/bg4.png );
+  background: url(https://res.cloudinary.com/dspdc3nqi/image/upload/v1644618239/HTL/bg4_ssw53n.png);
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -854,7 +854,7 @@ button:focus {
   ============================================================ */
 #prizes{
   background: #000;
-  background-image: url(../img/bg6.jpg);
+  background-image: url(https://res.cloudinary.com/dspdc3nqi/image/upload/v1644618252/HTL/bg6_jar8l0.jpg);
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1362,7 +1362,7 @@ button:focus {
    ========================================================================== */
 #footer-Content {
   padding-top: 130px;
-  background: url(../img/bg2.jpg);
+  background: url(https://res.cloudinary.com/dspdc3nqi/image/upload/v1644618239/HTL/bg2_m0kh4x.jpg);
   background-size: 100% 100%;
 }
 
