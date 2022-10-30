@@ -22,7 +22,7 @@ body {
   font-family: 'BatmanForeverOutline';
   font-style: normal;
   font-weight: normal;
-  src: local('BatmanForeverOutline'), url('batmfo__.woff') format('woff');
+  src: local('BatmanForeverOutline'), url('../fonts/batmfo__.woff') format('woff');
   }
   
 
@@ -30,7 +30,7 @@ body {
   font-family: 'BatmanForeverAlternate';
   font-style: normal;
   font-weight: normal;
-  src: local('BatmanForeverAlternate'), url('batmfa__.woff') format('woff');
+  src: local('BatmanForeverAlternate'), url('../fonts/batmfa__.woff') format('woff');
   }
 
 html {
