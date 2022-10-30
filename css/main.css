@@ -6,6 +6,7 @@
 @import url("http://fonts.cdnfonts.com/css/justice-league");
 @import url('http://fonts.cdnfonts.com/css/origin-tech-demo');
 @import url('http://fonts.cdnfonts.com/css/batman-forever');
+@import url('http://fonts.cdnfonts.com/css/origin-tech-demo');
 /* ==========================================================================
    GENERAL
    ========================================================================== */
@@ -22,7 +23,7 @@ body {
   font-family: 'Origin Tech Demo';
   font-style: normal;
   font-weight: normal;
-  src: local('Origin Tech Demo'), url('../fonts/OriginTech personal use.ttf') format('ttf');
+  src: local('Origin Tech Demo'), url('../fonts/OriginTech\ personal\ use.otf') format('ttf');
   }
   
   @font-face {
