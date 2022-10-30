@@ -23,7 +23,7 @@ body {
   font-family: 'Origin Tech Demo';
   font-style: normal;
   font-weight: normal;
-  src: local('Origin Tech Demo'), url('../fonts/OriginTech\ personal\ use.otf') format('otf');
+  src: local('Origin Tech Demo'), url('../fonts/OriginTech.ttf') format('ttf');
   }
   
   @font-face {
