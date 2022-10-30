@@ -19,12 +19,19 @@ body {
 }
 
 @font-face {
-  font-family: 'BatmanForeverOutline';
+  font-family: 'Origin Tech Demo';
   font-style: normal;
   font-weight: normal;
-  src: local('BatmanForeverOutline'), url('../fonts/batmfo__.woff') format('woff');
+  src: local('Origin Tech Demo'), url('../fonts/OriginTech personal use.ttf') format('woff');
   }
   
+  @font-face {
+    font-family: 'BatmanForeverOutline';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BatmanForeverOutline'), url('../fonts/batmfo__.woff') format('woff');
+    }
+    
 
   @font-face {
   font-family: 'BatmanForeverAlternate';
