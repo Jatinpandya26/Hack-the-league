@@ -19,9 +19,19 @@ body {
 }
 
 @font-face {
-  font-family: " 'BatmanForeverAlternate', sans-serif";
-  src: url(hhttp://fonts.cdnfonts.com/css/batman-forever.tff) format("truetype");
-}
+  font-family: 'BatmanForeverOutline';
+  font-style: normal;
+  font-weight: normal;
+  src: local('BatmanForeverOutline'), url('batmfo__.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'BatmanForeverAlternate';
+  font-style: normal;
+  font-weight: normal;
+  src: local('BatmanForeverAlternate'), url('batmfa__.woff') format('woff');
+  }
 
 html {
   overflow-x: hidden;
