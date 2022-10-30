@@ -18,6 +18,11 @@ body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: " 'BatmanForeverAlternate', sans-serif";
+  src: url(hhttp://fonts.cdnfonts.com/css/batman-forever.tff) format("truetype");
+}
+
 html {
   overflow-x: hidden;
 }
