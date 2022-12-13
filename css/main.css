@@ -1296,11 +1296,17 @@ p {
 
 .community-partners .picture {
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: auto;
+  width: 250px;
+  justify-content: center;
+  justify-items: center;
   margin-bottom: 50px;
   z-index: 1;
   position: relative;
+}
+.picture img{
+  vertical-align: middle;
+  
 }
 
 /* ==========================================================================
