@@ -842,7 +842,7 @@ zz .post-slide .read {
   Prizes
   ============================================================ */
 #prizes {
-  background: #2BAAFF;
+  background: #ffffff;
 }
 
 .winner-text h1,
@@ -910,7 +910,7 @@ p {
 }
 
 .flip-card-back {
-  background: linear-gradient(95deg, #000080 40%, #25ddf5 100%);
+  background:linear-gradient(180deg,#00181c,#00444d,#005a66 );
   color: white;
   transform: rotateY(180deg);
   border-radius: 10%;
@@ -919,6 +919,7 @@ p {
 .flip-card-back h1 {
   padding: 20px;
   color: #fff;
+  margin-top: 90px;
   font-weight: 800;
 }
 
