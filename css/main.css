@@ -233,7 +233,7 @@ a:not([href]):not([tabindex]):hover {
 .btn-border-filled {
   cursor: pointer;
   background-color: #0077ff;
-  border: 2px solid #0077ff;
+  border: 2px solid #ffffff;
   color: #fff;
   width: 180px;
   height: 50px;
@@ -483,7 +483,7 @@ button:focus {
 }
 
 .menu-bg {
-  background: #00405d !important;
+  background: #3e08a1 !important;
   box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   padding: 5px;
@@ -589,7 +589,7 @@ button:focus {
 }
 
 .hero-area {
-  background:linear-gradient(#0d6aac,#2169a3,#2f74c8,#50a8ef);
+  background:linear-gradient(#2a077c,#4912ad,#7e30e4,#a45bf7);
 }
 
 .hero-area .contents {
@@ -619,7 +619,7 @@ button:focus {
   text-transform: uppercase;
   padding: 15px 15px;
   border-radius: 20px;
-  background-color: #00405d;
+  background-color: #0b0479;
 
 }
 
@@ -640,13 +640,13 @@ button:focus {
 }
 
 .hero-area .intro-img {
-  padding: 180px 0 0px;
+  padding: 120px 0 10px;
 }
 
 .hero-area .intro-img img {
   display: block;
   height: auto;
-  max-width: 100%;
+  max-width: 140%;
 }
 
 .date {
@@ -1239,7 +1239,7 @@ p {
   sponsrs
   ============================================================ */
 .img-fluid {
-  border-bottom: firebrick 2px solid;
+  border-bottom: rgb(151, 33, 219) 2px solid;
 }
 
 .community-text {
@@ -1420,7 +1420,7 @@ p {
    ========================================================================== */
 #footer-Content {
   padding-top: 130px;
-  background: #00405d;
+  background: #330964;
   background-size: 100% 100%;
 }
 
@@ -1468,7 +1468,7 @@ p {
 
 /* *****tracks*****/
 .tracks{
-  background:linear-gradient(180deg,#00181c,#00444d,#005a66 );
+  background:linear-gradient(180deg,#0c0058,#2b0170,#3b009b );
 }
 .tracks .container-fluid
 {
